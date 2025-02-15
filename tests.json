@@ -1,0 +1,240 @@
+{
+  "config": {
+    "configFile": "C:\\Projects.Test\\projects-in-github\\playwright-examples\\playwright.config.ts",
+    "rootDir": "C:/Projects.Test/projects-in-github/playwright-examples/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Projects.Test/projects-in-github/playwright-examples/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Projects.Test/projects-in-github/playwright-examples/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.50.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "api-mocking\\api-mocking.spec.ts",
+      "file": "api-mocking/api-mocking.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Mocking an API call",
+          "file": "api-mocking/api-mocking.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "mocks a fruit and does not call api",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a4ebbfe27b1230ff861-8dc33a992608155d1aab",
+              "file": "api-mocking/api-mocking.spec.ts",
+              "line": 5,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Intercepting the request and modifying it",
+          "file": "api-mocking/api-mocking.spec.ts",
+          "line": 20,
+          "column": 6,
+          "specs": [
+            {
+              "title": "gets the json from api and adds a new fruit",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a4ebbfe27b1230ff861-3583fb1d65919ba0c551",
+              "file": "api-mocking/api-mocking.spec.ts",
+              "line": 22,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Mocking with HAR files",
+          "file": "api-mocking/api-mocking.spec.ts",
+          "line": 42,
+          "column": 6,
+          "specs": [
+            {
+              "title": "records or updates the HAR file",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a4ebbfe27b1230ff861-69339206c493b8bb26d5",
+              "file": "api-mocking/api-mocking.spec.ts",
+              "line": 44,
+              "column": 7
+            },
+            {
+              "title": "gets the json from HAR and checks the new fruit has been added",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a4ebbfe27b1230ff861-616494fb07f737c1be29",
+              "file": "api-mocking/api-mocking.spec.ts",
+              "line": 58,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "clock\\clock.spec.ts",
+      "file": "clock/clock.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "set fixed time",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f4775ddcfcd63ac76603-3fddbf8e6556ccba2c11",
+          "file": "clock/clock.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "manually advance time",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f4775ddcfcd63ac76603-ecc205e2f94ce017517b",
+          "file": "clock/clock.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "test inactivity monitoring",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f4775ddcfcd63ac76603-cba64b00e7b170f51169",
+          "file": "clock/clock.spec.ts",
+          "line": 20,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-02-15T06:33:21.554Z",
+    "duration": 32.69600000000014,
+    "expected": 0,
+    "skipped": 7,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
